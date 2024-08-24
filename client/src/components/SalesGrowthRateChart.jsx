@@ -42,7 +42,7 @@ const SalesGrowthRateChart = () => {
 		try {
 			setLoading(true);
 			const response = await axios.get(
-				`https://analytics-server-kklo.onrender.com/api/analytics/sales-growth-rate?interval=${interval}`,
+				`https://analytics-server-zqz5.onrender.com/api/analytics/sales-growth-rate?interval=${interval}`,
 			);
 			const data = response.data;
 
