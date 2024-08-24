@@ -38,7 +38,7 @@ const CustomerLifetimeValueCohortsChart = () => {
 		try {
 			setLoading(true);
 			const response = await axios.get(
-				`https://analytics-server-kklo.onrender.com/api/analytics/customer-lifetime-value`,
+				`https://analytics-server-zqz5.onrender.com/api/analytics/customer-lifetime-value`,
 			);
 			console.log("Response received:", response.data);
 
