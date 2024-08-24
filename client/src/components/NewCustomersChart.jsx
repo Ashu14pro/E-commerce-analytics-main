@@ -42,7 +42,7 @@ const NewCustomersChart = () => {
 		try {
 			setLoading(true);
 			const response = await axios.get(
-				`https://analytics-server-kklo.onrender.com/api/analytics/new-customers?interval=${interval}`,
+				`https://analytics-server-zqz5.onrender.com/api/analytics/new-customers?interval=${interval}`,
 			);
 			const data = response.data;
 
