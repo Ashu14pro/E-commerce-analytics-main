@@ -17,7 +17,7 @@ const GeographicalDistributionChart = () => {
 		try {
 			setLoading(true);
 			const response = await axios.get(
-				"https://analytics-server-kklo.onrender.com/api/analytics/geographical-distribution",
+				"https://analytics-server-zqz5.onrender.com/api/analytics/geographical-distribution",
 			);
 			setGeoData(response.data);
 			setError(null);
